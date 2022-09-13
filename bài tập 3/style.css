@@ -1,0 +1,84 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+ }
+ 
+ .container{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(230, 222, 222);
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.container button{
+    width: 100px;
+    height: 50px;
+    border-radius: 99px;
+    font-size: 20px;
+    background-color: pink;
+}
+.container #input{
+    width: calc(100% - 105px);
+    border-radius: 99px;
+    height: 50px;
+    font-size: 20px;
+}
+#list-1{
+    width: 500px;
+    margin: auto;
+    border: 1px solid rgb(199, 164, 164);
+    margin-top: 20px;
+    height: 50px;
+}
+#list-1 .list-2{
+    list-style-type: none;
+    border-bottom: 1px solid rgb(216, 195, 195);
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    height: 50px;
+    font-size: 20px;
+}
+#list-1 .list-2:nth-child(even){
+    background-color: white;
+}
+#list-1 .list-2:last-child{
+    border-bottom: none;
+}
+
+.delete-btn{
+   padding: 5px 5px;
+   background-color: rgb(177, 10, 38);
+   border: none;
+   color: white;
+   transition: 0.4s;
+
+}
+.delete-btn:hover {
+    background-color: rgb(114, 53, 61);
+    cursor: pointer;
+}
+.done{
+    text-decoration: line-through;
+    background-color: rgb(35, 111, 82) !important;
+}
+.update-btn{
+    padding: 5px 5px;
+    background-color: rgb(10, 113, 80);
+    border: none;
+    color: white;
+    transition: 0.4s;
+}
+.update-btn:hover {
+    background-color: rgb(31, 80, 59);
+    cursor: pointer;
+}
+.update-content {
+    display: none;
+}
